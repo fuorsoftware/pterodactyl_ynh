@@ -95,7 +95,7 @@ echo "deb https://packages.sury.org/php/ stretch main" | tee /etc/apt/sources.li
 
 ## Get apt updates
 ynh_package_update
-ynh_package_install libargon2-1 libsodium23 libcurl3 libzip5 memcached php-igbinary php-memcached php-msgpack php-xdebug php php-bcmath php-cli php-common php7.3-curl php-fpm php-gd php-json php-mbstring php-mysql php-readline php-xml php-zip
+ynh_package_install libargon2-1 libsodium23 libcurl4 libzip5 memcached php-igbinary php-memcached php-msgpack php-xdebug php php-bcmath php-cli php-common php7.3-curl php-fpm php-gd php-json php-mbstring php-mysql php-readline php-xml php-zip
 
 
 ## Start php7
